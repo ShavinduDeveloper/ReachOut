@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_back"
+        android:title="Back to List" />
+    <item
+        android:id="@+id/action_generate_qr"
+        android:title="View QR Code" />
+    <item
+        android:id="@+id/action_print"
+        android:title="Print" />
+</menu>

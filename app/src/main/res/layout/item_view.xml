@@ -22,6 +22,7 @@
         android:text="Name"
         android:textStyle="bold"
         android:textSize="20sp"
+        android:textColor="@color/black"
         android:layout_toEndOf="@+id/contactImage"
         android:layout_marginTop="10dp"/>
 
@@ -32,6 +33,7 @@
         android:text="+94 76 1234567"
         android:textStyle="bold"
         android:textSize="15sp"
+        android:textColor="@color/black"
         android:layout_toEndOf="@+id/contactImage"
         android:layout_below="@id/name"
         android:layout_marginTop="10dp"/>

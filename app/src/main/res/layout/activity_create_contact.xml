@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/header_title"
+        android:orientation="horizontal"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:scaleX="3"
+            android:scaleY="3"
+            app:srcCompat="@drawable/reach_out"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Add New Contact"
+            android:textColor="@color/white"
+            android:letterSpacing=".25"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/btn_select_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Image"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#01D301"
+        android:layout_gravity="center"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="8dp"
+        android:layout_margin="20dp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/edit_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:layout_marginBottom="16dp"
+        android:layout_margin="20dp"
+        tools:ignore="HardcodedText" />
+
+
+
+    <Button
+        android:id="@+id/btn_save_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Contact"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#01D301"
+        android:layout_gravity="center"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
